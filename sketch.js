@@ -18,6 +18,7 @@ function setup() {
   }
 }
 
+// Wird immer wieder aufgerufen
 function draw() {
   background(0);
   stroke(255);
