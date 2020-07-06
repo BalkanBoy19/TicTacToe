@@ -9,14 +9,13 @@ var activate_x = false;
 var someoneWon = false;
 
 function setup() {
-  createCanvas(300, 400);
+  createCanvas(400, 400);
   background(200);
   for (var i = 0; i < 3; i++) {
     for (var j = 0; j < 3; j++) {
       available.push([i, j]);
     }
   }
-  //noLoop();
 }
 
 function draw() {
